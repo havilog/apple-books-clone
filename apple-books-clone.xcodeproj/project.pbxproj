@@ -7,13 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		031947F529A4E883006CFE05 /* Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031947F429A4E883006CFE05 /* Custom.swift */; };
 		03522CDC2977BFD100792552 /* apple_books_cloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03522CDB2977BFD100792552 /* apple_books_cloneApp.swift */; };
-		03522CDE2977BFD100792552 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03522CDD2977BFD100792552 /* ContentView.swift */; };
 		03522CE02977BFD300792552 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03522CDF2977BFD300792552 /* Assets.xcassets */; };
 		03522CE32977BFD300792552 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03522CE22977BFD300792552 /* Preview Assets.xcassets */; };
 		03522CED2977BFD300792552 /* apple_books_cloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03522CEC2977BFD300792552 /* apple_books_cloneTests.swift */; };
 		03522CF72977BFD300792552 /* apple_books_cloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03522CF62977BFD300792552 /* apple_books_cloneUITests.swift */; };
 		03522CF92977BFD300792552 /* apple_books_cloneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03522CF82977BFD300792552 /* apple_books_cloneUITestsLaunchTests.swift */; };
+		0372EF4C299CA3B000189499 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0372EF4B299CA3B000189499 /* TestView.swift */; };
+		03B570332988F940007AB3C8 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B570322988F940007AB3C8 /* RootView.swift */; };
+		03B570352988F9B2007AB3C8 /* RootViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B570342988F9B2007AB3C8 /* RootViewModel.swift */; };
+		03B5704029892B3A007AB3C8 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B5703F29892B3A007AB3C8 /* AppView.swift */; };
+		03B5704229892C57007AB3C8 /* BookStoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B5704129892C57007AB3C8 /* BookStoreView.swift */; };
+		03B5704429892D62007AB3C8 /* SectionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B5704329892D62007AB3C8 /* SectionListView.swift */; };
+		03B5704629892D75007AB3C8 /* BookCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B5704529892D75007AB3C8 /* BookCollection.swift */; };
+		03B57048298930EF007AB3C8 /* SectionGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B57047298930EF007AB3C8 /* SectionGridView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		031947F429A4E883006CFE05 /* Custom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Custom.swift; sourceTree = "<group>"; };
 		03522CD82977BFD100792552 /* apple-books-clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "apple-books-clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		03522CDB2977BFD100792552 /* apple_books_cloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apple_books_cloneApp.swift; sourceTree = "<group>"; };
-		03522CDD2977BFD100792552 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		03522CDF2977BFD300792552 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03522CE22977BFD300792552 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		03522CE82977BFD300792552 /* apple-books-cloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "apple-books-cloneTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +52,14 @@
 		03522CF22977BFD300792552 /* apple-books-cloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "apple-books-cloneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		03522CF62977BFD300792552 /* apple_books_cloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apple_books_cloneUITests.swift; sourceTree = "<group>"; };
 		03522CF82977BFD300792552 /* apple_books_cloneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apple_books_cloneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0372EF4B299CA3B000189499 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		03B570322988F940007AB3C8 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		03B570342988F9B2007AB3C8 /* RootViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewModel.swift; sourceTree = "<group>"; };
+		03B5703F29892B3A007AB3C8 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		03B5704129892C57007AB3C8 /* BookStoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookStoreView.swift; sourceTree = "<group>"; };
+		03B5704329892D62007AB3C8 /* SectionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionListView.swift; sourceTree = "<group>"; };
+		03B5704529892D75007AB3C8 /* BookCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCollection.swift; sourceTree = "<group>"; };
+		03B57047298930EF007AB3C8 /* SectionGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionGridView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +111,8 @@
 			isa = PBXGroup;
 			children = (
 				03522CDB2977BFD100792552 /* apple_books_cloneApp.swift */,
-				03522CDD2977BFD100792552 /* ContentView.swift */,
+				03B5703C29892B08007AB3C8 /* App */,
+				03B5703B29892B04007AB3C8 /* Root */,
 				03522CDF2977BFD300792552 /* Assets.xcassets */,
 				03522CE12977BFD300792552 /* Preview Content */,
 			);
@@ -125,6 +142,29 @@
 				03522CF82977BFD300792552 /* apple_books_cloneUITestsLaunchTests.swift */,
 			);
 			path = "apple-books-cloneUITests";
+			sourceTree = "<group>";
+		};
+		03B5703B29892B04007AB3C8 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				03B570322988F940007AB3C8 /* RootView.swift */,
+				03B570342988F9B2007AB3C8 /* RootViewModel.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		03B5703C29892B08007AB3C8 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				03B5703F29892B3A007AB3C8 /* AppView.swift */,
+				03B5704129892C57007AB3C8 /* BookStoreView.swift */,
+				03B5704329892D62007AB3C8 /* SectionListView.swift */,
+				03B5704529892D75007AB3C8 /* BookCollection.swift */,
+				03B57047298930EF007AB3C8 /* SectionGridView.swift */,
+				0372EF4B299CA3B000189499 /* TestView.swift */,
+				031947F429A4E883006CFE05 /* Custom.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +297,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03522CDE2977BFD100792552 /* ContentView.swift in Sources */,
 				03522CDC2977BFD100792552 /* apple_books_cloneApp.swift in Sources */,
+				03B570352988F9B2007AB3C8 /* RootViewModel.swift in Sources */,
+				03B5704229892C57007AB3C8 /* BookStoreView.swift in Sources */,
+				03B5704029892B3A007AB3C8 /* AppView.swift in Sources */,
+				031947F529A4E883006CFE05 /* Custom.swift in Sources */,
+				03B5704429892D62007AB3C8 /* SectionListView.swift in Sources */,
+				03B570332988F940007AB3C8 /* RootView.swift in Sources */,
+				0372EF4C299CA3B000189499 /* TestView.swift in Sources */,
+				03B57048298930EF007AB3C8 /* SectionGridView.swift in Sources */,
+				03B5704629892D75007AB3C8 /* BookCollection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +473,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,6 +503,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

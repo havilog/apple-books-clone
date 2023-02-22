@@ -11,7 +11,7 @@ import SwiftUI
 struct apple_books_cloneApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AppView()
         }
     }
 }
